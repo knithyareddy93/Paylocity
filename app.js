@@ -49,7 +49,7 @@ if(my_data.length)
     //console.log("MATCHING NAMES with 10 dName% for 1 ", (10/100 * x));
    console.log("FINAL VAL", (n * x) - (matching_dnames * (10/100 * x)));
    console.log("TOTAL VAL", (2000*26) - m - ((n * x) - (matching_dnames *(10/100 * x))));
-    x = m - ((n * x) - (matching_dnames * (10/100 * x)));
+    x = m + ((n * x) - (matching_dnames * (10/100 * x)));
     single_sum = (2000*26) - x;
     final_sum += single_sum;
   }
